@@ -17,23 +17,23 @@
 .left-section {
   grid-column: span 2;
   height: 100%;
-  background-color: #999999;
-}
+  background-color: #506f86;
+  }
 
 .right-section {
   grid-column: span 5;
   height: 100%;
-  background-color: #424a50;
+  background-color: #2f3c4f;
   border-radius: 0px 60px 0px 0px;
 }
 
 .left-section-contents {
-  padding: 2rem 2rem;
+  padding: 3rem 3rem;
 }
 
 .profile {
   width: 100%;
-  border-bottom: 2px solid #eeeeee;
+  border-bottom: 2px solid #e3e3e3;
 }
 
 .profile .profile-image {
@@ -42,23 +42,27 @@
 }
 
 .name {
-  color: #d6dbdf;
+  color: #fbb040;
   font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .profession {
-  color: #eeeeee;
+  color: #fbb040;
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-  color: #eeeeee;
-  font-size: 20px;
+  color: #fbb040;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid #e3e3e3;
+  padding-left: 5%;
 }
 
 .contact-info ul {
@@ -68,22 +72,22 @@
 .contact-info ul li,
 .references ul li {
   padding: 0.4rem 0;
-  color: #eeeeee;
+  color: #e3e3e3;
 }
 
 .contact-info ul li i,
 .references ul li i {
-  padding-right: 1rem;
+  padding-right: 01rem;
   font-size: 18px;
-  color: #eeeeee;
+  color: #e3e3e3;
 }
 
 .skills ul {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 .skills ul li p {
-  padding: 0.4rem 0;
-  color: #eeeeee;
+  padding: 0.4rem;
+  color: #e3e3e3;
 }
 
 .right-section-contents {
@@ -91,7 +95,10 @@
 }
 
 .right-title {
-  color: #eeeeee;
+  color: #fbb040;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 5%;
 }
 
 .gap {
@@ -99,7 +106,7 @@
 }
 .about-me-contents {
   font-size: 18px;
-  color: #eeeeee;
+  color: #e3e3e3;
 }
 
 .experience-contents,
@@ -108,13 +115,14 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-bottom: 2rem;
+  padding: 2rem 2rem;
   color: #f1f8fd;
 }
 
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -127,7 +135,7 @@
 .exp-position,
 .education-subject,
 .awards-name {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .exp-desc,
@@ -135,4 +143,5 @@
 .awards-desc {
   font-size: 16px;
   padding-left: 5px;
+  padding: 2rem 2rem;
 }
